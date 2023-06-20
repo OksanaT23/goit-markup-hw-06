@@ -409,6 +409,9 @@ img {
 .modal-field {
   margin-bottom: 8px;
 }
+.field-comment {
+ margin-bottom: 16px; 
+}
 
 .modal-input {
   width: 100%;
