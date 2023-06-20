@@ -517,14 +517,19 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              id="privacy"
-              name="privacy"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
-              class="modal-check"
+              class="modal-check visually-hidden"
             />
-            <label for="privacy" class="input-label">
+            <label for="user-privacy" class="input-label">
+              <span class="pseudo-checkbox">
+                <svg width="10" height="8" class="checkbox-mark">
+                  <use href="./images/icons.svg#icon-checkmark" />
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a href="" class="privacy-policy-link">Privacy Policy</a>
             </label>
           </div>
           <button type="submit" class="button primary modal-submit">
