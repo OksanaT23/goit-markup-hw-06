@@ -751,7 +751,9 @@ img {
   border: none;
   fill: var(--secondary-text-color-2);
 }
-
+.privacy-policy-link {
+  color: #4d5ae5;
+}
 .modal-submit {
   margin: 24px auto 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -805,3 +807,4 @@ img {
 .subscribe-button .svg-icon {
   margin-left: 16px;
 }
+.
