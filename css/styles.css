@@ -401,11 +401,13 @@ img {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 15px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
 .modal-field {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -444,6 +446,10 @@ img {
 .input-label {
   font-size: 12px;
   color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .input-label span {
