@@ -430,6 +430,7 @@ img {
 }
 .input-wrap {
   position: relative;
+  display: block;
 }
 
 .input-wrap:focus-within input {
