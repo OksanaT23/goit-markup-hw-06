@@ -737,10 +737,17 @@ img {
   border: 1px solid #ffffff;
   border-radius: 4px;
   padding-left: 16px;
-  background: #2e2f42;
+  width: 264px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
 }
 .footer-input::placeholder {
   font-size: 12px;
+  color: #ffffff;
 }
 .subscribe-block {
   margin-left: 88px;
@@ -770,7 +777,11 @@ img {
   padding: 8px 24px;
   gap: 16px;
   height: auto;
+  min-width: 165px;
 }
 .form-container {
   display: flex;
+}
+.subscribe-button .svg-icon {
+  margin-left: 16px;
 }
