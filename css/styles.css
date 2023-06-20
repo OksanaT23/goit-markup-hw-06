@@ -751,10 +751,6 @@ img {
 }
 .subscribe-block {
   margin-left: 88px;
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  align-items: end;
 }
 .field-input-label {
   display: block;
@@ -775,12 +771,12 @@ img {
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
-  gap: 16px;
   height: auto;
   min-width: 165px;
 }
 .form-container {
   display: flex;
+  gap: 16px;
 }
 .subscribe-button .svg-icon {
   margin-left: 16px;
