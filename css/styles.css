@@ -748,9 +748,16 @@ img {
 }
 .field-input-label {
   display: block;
+  gap 24px;
 }
 .footer-subscribe {
   display: block;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .subscribe-button {
   display: flex;
@@ -760,4 +767,7 @@ img {
   padding: 8px 24px;
   gap: 16px;
   height: auto;
+}
+.form-container {
+  display: flex;
 }
