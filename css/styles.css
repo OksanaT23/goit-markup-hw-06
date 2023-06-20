@@ -412,6 +412,9 @@ img {
 .field-comment {
   margin-bottom: 16px;
 }
+.field-checkbox {
+  margin-bottom: 24px;
+}
 
 .modal-input {
   width: 100%;
@@ -723,13 +726,14 @@ img {
   padding: 8px 16px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .modal-comment:focus {
   border-color: #4d5ae5;
 }
 
-.pseudo-checkbox {
+.input-label .pseudo-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -742,7 +746,7 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.modale-check:checked + label .pseudo-checkbox {
+.modal-check:checked + .input-label > .pseudo-checkbox {
   background-color: var(--link-active);
   border: none;
   fill: var(--secondary-text-color-2);
@@ -750,6 +754,7 @@ img {
 
 .modal-submit {
   margin: 24px auto 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-input {
   height: 40px;
