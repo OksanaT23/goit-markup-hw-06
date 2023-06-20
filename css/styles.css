@@ -407,7 +407,7 @@ img {
   margin-bottom: 16px;
 }
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -721,9 +721,11 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-comment:focus {
   border-color: #4d5ae5;
 }
+
 .modal-submit {
   margin: 24px auto 0;
 }
